@@ -1,0 +1,17 @@
+(node:5638) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///Users/joshbreckman/Documents/gameengine/bus/dist/node.83fe426318bd73520cf0.js is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to /Users/joshbreckman/Documents/gameengine/bus/package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ai: prompts 499, stepBacks 0, rejections 0, stalls 0, stuck 0, ruleErrors 0, untagged {}
+game 1: finished in 1.5s — winner Robot 4 10 VP [round 9 markers, 688 changes, VP 4/8/10/4/6, stones 0/0/0/0/1, markers 0/0/0/0/0, line 13/11/11/14/16]
+  ai: prompts 508, stepBacks 0, rejections 0, stalls 0, stuck 0, ruleErrors 0, untagged {}
+game 2: finished in 1.3s — winner Robot 3 8 VP [round 9 markers, 687 changes, VP 6/8/8/7/3, stones 0/0/0/0/0, markers 0/0/0/0/0, line 11/13/14/13/16]
+  ai: prompts 539, stepBacks 0, rejections 0, stalls 0, stuck 0, ruleErrors 0, untagged {}
+game 3: finished in 1.5s — winner Robot 2 9 VP [round 10 markers, 749 changes, VP 8/4/7/9/6, stones 0/0/0/0/0, markers 0/0/0/0/0, line 14/19/9/13/18]
+  ai: prompts 510, stepBacks 0, rejections 0, stalls 0, stuck 0, ruleErrors 0, untagged {}
+game 4: finished in 1.3s — winner Robot 4 8 VP [round 9 markers, 712 changes, VP 8/6/6/4/7, stones 0/0/0/0/0, markers 0/0/0/0/0, line 14/11/9/26/15]
+  ai: prompts 482, stepBacks 0, rejections 0, stalls 0, stuck 0, ruleErrors 0, untagged {}
+game 5: finished in 1.3s — winner Robot 2 8 VP [round 8 markers, 661 changes, VP 3/7/8/3/3, stones 0/0/0/0/0, markers 3/0/0/0/0, line 14/10/11/7/22]
+  ai: prompts 520, stepBacks 0, rejections 0, stalls 0, stuck 0, ruleErrors 0, untagged {}
+game 6: finished in 1.5s — winner Robot 1 8 VP [round 9 markers, 734 changes, VP 7/7/8/4/8, stones 0/0/0/0/0, markers 0/0/0/0/0, line 11/14/17/13/20]
+6/6 games finished

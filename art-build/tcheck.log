@@ -1,0 +1,4 @@
+headless: ok (83 steps)
+browser-like: ok (83 steps)
+bots fast, person slow: ok (83 steps)
+engine runTutorial: ok (83 steps)

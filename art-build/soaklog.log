@@ -1,0 +1,235 @@
+(node:3152) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///Users/joshbreckman/Documents/gameengine/bus/dist/node.d1508d120d7023cfd05b.js is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to /Users/joshbreckman/Documents/gameengine/bus/package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+:p2: starts, with the start-bus.
+  :p2: erects a house and a office.
+  :p1: erects a office and a pub.
+  :p3: erects a house and a office.
+  :p0: erects a house and a pub.
+  :p2: lays their first line marker.
+  :p1: lays their first line marker.
+  :p3: lays their first line marker.
+  :p0: lays their first line marker.
+  :p0: lays their second line marker.
+  :p3: lays their second line marker.
+  :p1: lays their second line marker.
+  :p2: lays their second line marker.
+Round 1.
+  :p2: chooses Buses.
+  :p1: chooses Line Expansion (A).
+  :p3: chooses Buildings (A).
+  :p0: chooses Starting Player.
+  :p2: chooses Passengers (A).
+  :p1: chooses Clock.
+  :p3: chooses Vrrooomm! (A).
+  :p0: chooses Vrrooomm! (B).
+  :p2: passes.
+  :p1: passes.
+  :p3: passes.
+  :p0: passes.
+  :p1: extends their line by 1 street.
+:p2: buys a bus (2 now; most buses: 2).
+  :p2: brings 2 :passenger: to the stations.
+  :p3: erects 1 :office:, 1 :pub:.
+:p1: lets time run: the clock moves to the :office:.
+:p3:'s Vrrooomm! (A): no passenger on their line can reach a free :office: on it.
+:p0:'s Vrrooomm! (B): no passenger on their line can reach a free :office: on it.
+:p0: takes the start-bus.
+Round 2.
+  :p0: chooses Buses.
+  :p2: chooses Vrrooomm! (A).
+  :p1: chooses Line Expansion (A).
+  :p3: chooses Line Expansion (B).
+  :p0: chooses Buildings (A).
+  :p2: chooses Vrrooomm! (B).
+  :p1: chooses Buildings (B).
+  :p3: chooses Passengers (A).
+  :p0: passes.
+  :p2: chooses Vrrooomm! (C).
+  :p1: passes.
+  :p3: passes.
+  :p2: passes.
+  :p3: extends their line by 1 street.
+  :p1: extends their line by 2 streets.
+:p0: buys a bus (2 now; most buses: 2).
+  :p3: brings 2 :passenger: to the stations.
+  :p1: erects 1 :pub:.
+  :p0: erects 2 :pub:.
+Nobody stopped the clock: it moves to the :pub:.
+  :p2: runs their 2 buses: 1 :passenger: carried, +1.
+:p2:'s Vrrooomm! (B): no passenger on their line can reach a free :pub: on it.
+:p2:'s Vrrooomm! (C): no passenger on their line can reach a free :pub: on it.
+Nobody chose Starting Player: the start-bus passes to :p2:.
+Round 3.
+  :p2: chooses Vrrooomm! (A).
+  :p1: chooses Vrrooomm! (B).
+  :p3: chooses Buses.
+  :p0: chooses Line Expansion (A).
+  :p2: chooses Line Expansion (B).
+  :p1: chooses Passengers (A).
+  :p3: chooses Vrrooomm! (C).
+  :p0: chooses Vrrooomm! (D).
+  :p2: passes.
+  :p1: chooses Passengers (B).
+  :p3: chooses Buildings (A).
+  :p0: passes.
+  :p1: chooses Buildings (B).
+  :p3: passes.
+  :p1: passes.
+  :p2: extends their line by 1 street.
+  :p0: extends their line by 2 streets.
+:p3: buys a bus (2 now; most buses: 2).
+  :p1: brings 2 :passenger: to the stations.
+  :p1: brings 1 :passenger: to the stations.
+  :p1: erects 1 :house:.
+  :p3: erects 1 :office:, 1 :pub:.
+Nobody stopped the clock: it moves to the :house:.
+  :p2: runs their 2 buses: 1 :passenger: carried, +1.
+:p1:'s Vrrooomm! (B): no passenger on their line can reach a free :house: on it.
+  :p3: runs their 2 buses: 1 :passenger: carried, +1.
+:p0:'s Vrrooomm! (D): no passenger on their line can reach a free :house: on it.
+Nobody chose Starting Player: the start-bus passes to :p1:.
+Round 4.
+  :p1: chooses Vrrooomm! (A).
+  :p3: chooses Line Expansion (A).
+  :p0: chooses Line Expansion (B).
+  :p2: chooses Passengers (A).
+  :p1: chooses Vrrooomm! (B).
+  :p3: chooses Passengers (B).
+  :p0: chooses Buses.
+  :p2: chooses Buildings (A).
+  :p1: chooses Vrrooomm! (C).
+  :p3: passes.
+  :p0: chooses Buildings (B).
+  :p2: passes.
+  :p1: chooses Vrrooomm! (D).
+  :p0: passes.
+  :p1: chooses Vrrooomm! (E).
+  :p1: passes.
+  :p0: extends their line by 1 street.
+  :p3: extends their line by 2 streets.
+:p0: buys a bus (3 now; most buses: 3).
+  :p2: brings 3 :passenger: to the stations.
+  :p3: brings 1 :passenger: to the stations (the supply ran out).
+  :p0: erects 1 :house:, 1 :office:.
+  :p2: erects 2 :office:, 1 :pub:.
+Nobody stopped the clock: it moves to the :office:.
+  :p1: runs their bus: 1 :passenger: carried, +1.
+:p1:'s Vrrooomm! (B): no passenger on their line can reach a free :office: on it.
+:p1:'s Vrrooomm! (C): no passenger on their line can reach a free :office: on it.
+:p1:'s Vrrooomm! (D): no passenger on their line can reach a free :office: on it.
+:p1:'s Vrrooomm! (E): no passenger on their line can reach a free :office: on it.
+Nobody chose Starting Player: the start-bus passes to :p3:.
+Round 5.
+  :p3: chooses Line Expansion (A).
+  :p0: chooses Vrrooomm! (A).
+  :p2: chooses Line Expansion (B).
+  :p1: chooses Vrrooomm! (B).
+  :p3: chooses Buses.
+  :p0: chooses Buildings (A).
+  :p2: chooses Line Expansion (C).
+  :p1: chooses Buildings (B).
+  :p3: passes.
+  :p0: chooses Vrrooomm! (C).
+  :p2: chooses Buildings (C).
+  :p1: passes.
+  :p0: passes.
+  :p2: passes.
+  :p2: extends their line by 1 street.
+  :p2: extends their line by 2 streets.
+  :p3: extends their line by 3 streets.
+:p3: buys a bus (3 now; most buses: 3).
+  :p2: erects 1 :pub:.
+  :p1: erects 2 :pub:.
+  :p0: erects 1 :house:, 1 :office:, 1 :pub:.
+Nobody stopped the clock: it moves to the :pub:.
+  :p0: runs their 3 buses: 1 :passenger: carried, +1.
+  :p1: runs their bus: 1 :passenger: carried, +1.
+:p0:'s Vrrooomm! (C): no passenger on their line can reach a free :pub: on it.
+Nobody chose Starting Player: the start-bus passes to :p0:.
+Round 6.
+  :p0: chooses Vrrooomm! (A).
+  :p2: chooses Vrrooomm! (B).
+  :p1: chooses Vrrooomm! (C).
+  :p3: chooses Line Expansion (A).
+  :p0: chooses Line Expansion (B).
+  :p2: chooses Buses.
+  :p1: chooses Buildings (A).
+  :p3: chooses Vrrooomm! (D).
+  :p0: chooses Vrrooomm! (E).
+  :p2: passes.
+  :p1: chooses Buildings (B).
+  :p3: passes.
+  :p0: chooses Line Expansion (C).
+  :p1: chooses Buildings (C).
+  :p0: passes.
+  :p1: passes.
+  :p0: extends their line by 1 street.
+  :p0: extends their line by 2 streets.
+  :p3: extends their line by 3 streets.
+:p2: buys a bus (3 now; most buses: 3).
+  :p1: erects 1 :office:.
+  :p1: erects 1 :house:, 1 :pub:.
+  :p1: erects 1 :office:, 2 :pub:.
+Nobody stopped the clock: it moves to the :house:.
+  :p0: runs their 3 buses: 2 :passenger: carried, +2.
+:p2:'s Vrrooomm! (B): no passenger on their line can reach a free :house: on it.
+:p1:'s Vrrooomm! (C): no passenger on their line can reach a free :house: on it.
+:p3:'s Vrrooomm! (D): no passenger on their line can reach a free :house: on it.
+:p0:'s Vrrooomm! (E): no passenger on their line can reach a free :house: on it.
+Nobody chose Starting Player: the start-bus passes to :p2:.
+Round 7.
+  :p2: chooses Vrrooomm! (A).
+  :p1: chooses Line Expansion (A).
+  :p3: chooses Vrrooomm! (B).
+  :p0: chooses Vrrooomm! (C).
+  :p2: chooses Vrrooomm! (D).
+  :p3: chooses Vrrooomm! (E).
+  :p0: chooses Buildings (A).
+  :p2: chooses Line Expansion (B).
+  :p3: chooses Buses.
+  :p0: passes.
+  :p2: chooses Vrrooomm! (F).
+  :p3: passes.
+  :p2: passes.
+  :p2: extends their line by 2 streets.
+  :p1: extends their line by 3 streets.
+:p3: buys a bus (4 now; most buses: 4).
+  :p0: erects 2 :house:, 2 :office:.
+Nobody stopped the clock: it moves to the :office:.
+  :p2: runs their 3 buses: 3 :passenger: carried, +3.
+:p3:'s Vrrooomm! (B): no passenger on their line can reach a free :office: on it.
+  :p0: runs their 3 buses: 1 :passenger: carried, +1.
+  :p2: runs their 3 buses: 1 :passenger: carried, +1.
+:p3:'s Vrrooomm! (E): no passenger on their line can reach a free :office: on it.
+:p2:'s Vrrooomm! (F): no passenger on their line can reach a free :office: on it.
+Nobody chose Starting Player: the start-bus passes to :p1:.
+:p1: has no action markers left; the start-bus passes to :p3:.
+Round 8.
+  :p3: chooses Vrrooomm! (A).
+  :p0: chooses Vrrooomm! (B).
+  :p2: chooses Vrrooomm! (C).
+  :p3: chooses Vrrooomm! (D).
+  :p0: chooses Line Expansion (A).
+  :p2: chooses Buses.
+  :p3: chooses Vrrooomm! (E).
+  :p3: chooses Line Expansion (B).
+  :p3: extends their line by 3 streets.
+  :p0: extends their line by 4 streets.
+:p2: buys a bus (4 now; most buses: 4).
+Nobody stopped the clock: it moves to the :pub:.
+  :p3: runs their 4 buses: 4 :passenger: carried, +4.
+  :p0: runs their 3 buses: 2 :passenger: carried, +2.
+  :p2: runs their 4 buses: 1 :passenger: carried, +1.
+:p3:'s Vrrooomm! (D): no passenger on their line can reach a free :pub: on it.
+:p3:'s Vrrooomm! (E): no passenger on their line can reach a free :pub: on it.
+Nobody chose Starting Player: the start-bus passes to :p0:.
+At most one player has action markers left: the game ends.
+:p2:: 7 points − 0 time stones = 7.
+:p0:: 6 points − 0 time stones = 6.
+:p3:: 5 points − 0 time stones = 5.
+:p1:: 2 points − 0 time stones = 2.
+  ai: prompts 386, stepBacks 0, rejections 0, stalls 0, stuck 0, ruleErrors 0, untagged {}
+game 1: finished in 0.8s — winner Robot 3 7 VP [round 8 markers, 484 changes, VP 7/2/5/6, stones 0/0/0/0, markers 0/0/0/0, line 8/8/14/12]
+1/1 games finished

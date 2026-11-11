@@ -1,0 +1,728 @@
+{
+ "en": {
+  "welcome": {
+   "hash": "70e578ed1b3a",
+   "sentenceTimes": [
+    0,
+    6.18,
+    7.884
+   ],
+   "duration": 13.481
+  },
+  "goal": {
+   "hash": "1e0e03a05fee",
+   "sentenceTimes": [
+    0,
+    2.493
+   ],
+   "duration": 4.2
+  },
+  "map": {
+   "hash": "fad2437dfeca",
+   "sentenceTimes": [
+    0,
+    1.141,
+    2.942
+   ],
+   "duration": 9.36
+  },
+  "locations": {
+   "hash": "307891c8b903",
+   "sentenceTimes": [
+    0,
+    2.387,
+    5.326,
+    8.386
+   ],
+   "duration": 13.495
+  },
+  "clock": {
+   "hash": "f63226146eeb",
+   "sentenceTimes": [
+    0,
+    1.865,
+    5.245
+   ],
+   "duration": 11.655
+  },
+  "passengers": {
+   "hash": "1729faca2926",
+   "sentenceTimes": [
+    0,
+    3.489,
+    6.3
+   ],
+   "duration": 9.537
+  },
+  "tray": {
+   "hash": "657d2812c0cc",
+   "sentenceTimes": [
+    0,
+    1.547,
+    5.896,
+    8.991,
+    12.261
+   ],
+   "duration": 15.094
+  },
+  "fb-intro": {
+   "hash": "5e39bcf053ff",
+   "sentenceTimes": [
+    0,
+    2.983,
+    9.091
+   ],
+   "duration": 10.588
+  },
+  "fb-office-kind": {
+   "hash": "f5427df1a3f9",
+   "sentenceTimes": [
+    0,
+    1.562,
+    5.338
+   ],
+   "duration": 8.447
+  },
+  "fb-office": {
+   "hash": "cea734733f83",
+   "sentenceTimes": [
+    0,
+    2.726
+   ],
+   "duration": 8.045
+  },
+  "fb-house-kind": {
+   "hash": "b62292b14c87",
+   "sentenceTimes": [
+    0,
+    3.678
+   ],
+   "duration": 7.295
+  },
+  "fb-house": {
+   "hash": "6a42bf810e66",
+   "sentenceTimes": [
+    0
+   ],
+   "duration": 2.955
+  },
+  "fb-confirm": {
+   "hash": "e50867416b0b",
+   "sentenceTimes": [
+    0,
+    1.594
+   ],
+   "duration": 3.725
+  },
+  "others-fb-mila": {
+   "hash": "120f0b030980",
+   "sentenceTimes": [
+    0
+   ],
+   "duration": 1.53
+  },
+  "others-fb-bram": {
+   "hash": "766b3f090cad",
+   "sentenceTimes": [
+    0
+   ],
+   "duration": 1.476
+  },
+  "fl-intro": {
+   "hash": "150de53de5dd",
+   "sentenceTimes": [
+    0,
+    5.872
+   ],
+   "duration": 8.318
+  },
+  "fl-first": {
+   "hash": "b2aa0cf5015a",
+   "sentenceTimes": [
+    0,
+    3.64
+   ],
+   "duration": 7.525
+  },
+  "fl-confirm": {
+   "hash": "4fd0ad872ece",
+   "sentenceTimes": [
+    0
+   ],
+   "duration": 1.726
+  },
+  "others-fl-mila": {
+   "hash": "595812707bde",
+   "sentenceTimes": [
+    0
+   ],
+   "duration": 1.752
+  },
+  "others-fl-bram": {
+   "hash": "c0f5ac4ea366",
+   "sentenceTimes": [
+    0
+   ],
+   "duration": 0.924
+  },
+  "fl-reverse": {
+   "hash": "0a08f3da9b51",
+   "sentenceTimes": [
+    0,
+    4.407
+   ],
+   "duration": 8.6
+  },
+  "others-fl2-bram": {
+   "hash": "35e8267540cd",
+   "sentenceTimes": [
+    0
+   ],
+   "duration": 1.613
+  },
+  "others-fl2-mila": {
+   "hash": "7103ead57c9b",
+   "sentenceTimes": [
+    0
+   ],
+   "duration": 1.139
+  },
+  "fl-second": {
+   "hash": "0769c40b3927",
+   "sentenceTimes": [
+    0,
+    0.903,
+    4.555
+   ],
+   "duration": 8.384
+  },
+  "finish": {
+   "hash": "7160fb51aba9",
+   "sentenceTimes": [
+    0,
+    1.338,
+    5.264,
+    9.741
+   ],
+   "duration": 10.603
+  },
+  "r1-round": {
+   "hash": "99c65a06d101",
+   "sentenceTimes": [
+    0,
+    1.393
+   ],
+   "duration": 9.208
+  },
+  "r1-vroom": {
+   "hash": "abd655cd113d",
+   "sentenceTimes": [
+    0,
+    2.212,
+    5.186
+   ],
+   "duration": 12.57
+  },
+  "r1-confirm1": {
+   "hash": "3a04685c61da",
+   "sentenceTimes": [
+    0,
+    1.133
+   ],
+   "duration": 2.697
+  },
+  "others-r1-mila1": {
+   "hash": "d5335bdc4b0b",
+   "sentenceTimes": [
+    0
+   ],
+   "duration": 2.343
+  },
+  "others-r1-bram1": {
+   "hash": "3c068de7a369",
+   "sentenceTimes": [
+    0
+   ],
+   "duration": 2.693
+  },
+  "r1-buses": {
+   "hash": "d79653e54728",
+   "sentenceTimes": [
+    0,
+    2.459,
+    6.729,
+    11.281,
+    13.416,
+    20.442,
+    23.015
+   ],
+   "duration": 29.109
+  },
+  "r1-confirm2": {
+   "hash": "0ece4bf91337",
+   "sentenceTimes": [
+    0
+   ],
+   "duration": 1.133
+  },
+  "others-r1-mila2": {
+   "hash": "c01282ea8544",
+   "sentenceTimes": [
+    0
+   ],
+   "duration": 2.517
+  },
+  "others-r1-bram2": {
+   "hash": "66ee7154e8f9",
+   "sentenceTimes": [
+    0
+   ],
+   "duration": 4.238
+  },
+  "r1-pass": {
+   "hash": "df85acf86215",
+   "sentenceTimes": [
+    0,
+    2.923,
+    3.986
+   ],
+   "duration": 6.167
+  },
+  "others-r1-resolve": {
+   "hash": "a893717bee2f",
+   "sentenceTimes": [
+    0
+   ],
+   "duration": 5.332
+  },
+  "r1-carry": {
+   "hash": "27ac1762f08f",
+   "sentenceTimes": [
+    0,
+    1.158,
+    3.981
+   ],
+   "duration": 5.436
+  },
+  "fl-confirm2": {
+   "hash": "972ee3aeb37d",
+   "sentenceTimes": [
+    0
+   ],
+   "duration": 3.524
+  },
+  "r1-confirm3": {
+   "hash": "0ece4bf91337",
+   "sentenceTimes": [
+    0
+   ],
+   "duration": 1.133
+  },
+  "others-r1-done": {
+   "hash": "46d592455601",
+   "sentenceTimes": [
+    0,
+    1.646
+   ],
+   "duration": 5.765
+  },
+  "others-r1-line": {
+   "hash": "7d92fb450842",
+   "sentenceTimes": [
+    0,
+    1.89
+   ],
+   "duration": 6.696
+  },
+  "others-r1-bus": {
+   "hash": "196759531e0d",
+   "sentenceTimes": [
+    0,
+    2.917
+   ],
+   "duration": 7.849
+  },
+  "others-r1-passengers": {
+   "hash": "b1fb8264cadc",
+   "sentenceTimes": [
+    0
+   ],
+   "duration": 5.626
+  },
+  "others-r1-buildings": {
+   "hash": "26ddc6363e9b",
+   "sentenceTimes": [
+    0
+   ],
+   "duration": 4.469
+  },
+  "others-r1-clock": {
+   "hash": "24ff92193592",
+   "sentenceTimes": [
+    0,
+    3.678
+   ],
+   "duration": 5.649
+  },
+  "others-r1-reseat": {
+   "hash": "f2b0d0723b9e",
+   "sentenceTimes": [
+    0,
+    2.99
+   ],
+   "duration": 8.564
+  },
+  "r1-end": {
+   "hash": "7c4ecdd5c766",
+   "sentenceTimes": [
+    0,
+    1.524,
+    5.46
+   ],
+   "duration": 6.915
+  },
+  "r2-plan": {
+   "hash": "af7e91231e19",
+   "sentenceTimes": [
+    0,
+    0.926,
+    3.228,
+    7.725
+   ],
+   "duration": 12.933
+  },
+  "others-r2-bram1": {
+   "hash": "a672ad42c953",
+   "sentenceTimes": [
+    0
+   ],
+   "duration": 3.738
+  },
+  "r2-buildings": {
+   "hash": "5cc02cdc78fc",
+   "sentenceTimes": [
+    0,
+    1.945
+   ],
+   "duration": 7.986
+  },
+  "r2-confirm1": {
+   "hash": "0ece4bf91337",
+   "sentenceTimes": [
+    0
+   ],
+   "duration": 1.133
+  },
+  "others-r2-mila1": {
+   "hash": "79b192e3a3fd",
+   "sentenceTimes": [
+    0
+   ],
+   "duration": 1.472
+  },
+  "others-r2-bram2": {
+   "hash": "3c068de7a369",
+   "sentenceTimes": [
+    0
+   ],
+   "duration": 2.693
+  },
+  "r2-passengers": {
+   "hash": "72b50af8ce06",
+   "sentenceTimes": [
+    0,
+    4.99
+   ],
+   "duration": 9.231
+  },
+  "r2-confirm2": {
+   "hash": "0ece4bf91337",
+   "sentenceTimes": [
+    0
+   ],
+   "duration": 1.133
+  },
+  "others-r2-mila2": {
+   "hash": "8377b6fa9381",
+   "sentenceTimes": [
+    0
+   ],
+   "duration": 4.249
+  },
+  "others-r2-bram3": {
+   "hash": "29b3954eb6a1",
+   "sentenceTimes": [
+    0
+   ],
+   "duration": 2.286
+  },
+  "r2-vroom": {
+   "hash": "64aa5f820f58",
+   "sentenceTimes": [
+    0
+   ],
+   "duration": 4.151
+  },
+  "r2-confirm3": {
+   "hash": "0ece4bf91337",
+   "sentenceTimes": [
+    0
+   ],
+   "duration": 1.133
+  },
+  "others-r2-more": {
+   "hash": "9b92f17e0338",
+   "sentenceTimes": [
+    0
+   ],
+   "duration": 1.739
+  },
+  "r2-pass": {
+   "hash": "9bfb89bda850",
+   "sentenceTimes": [
+    0,
+    1.551
+   ],
+   "duration": 2.614
+  },
+  "r2-confirm4": {
+   "hash": "0ece4bf91337",
+   "sentenceTimes": [
+    0
+   ],
+   "duration": 1.133
+  },
+  "others-r2-done": {
+   "hash": "3cde39aedc6e",
+   "sentenceTimes": [
+    0,
+    1.429
+   ],
+   "duration": 3.981
+  },
+  "others-r2-line-mila": {
+   "hash": "6e58812669de",
+   "sentenceTimes": [
+    0,
+    5.303
+   ],
+   "duration": 7.752
+  },
+  "others-r2-line-bram": {
+   "hash": "d2e3a29f8aed",
+   "sentenceTimes": [
+    0,
+    2.43
+   ],
+   "duration": 6.866
+  },
+  "others-r2-bus": {
+   "hash": "87e54ea72b5b",
+   "sentenceTimes": [
+    0
+   ],
+   "duration": 2.46
+  },
+  "r2-pax1": {
+   "hash": "9b319ac2647a",
+   "sentenceTimes": [
+    0,
+    2.561
+   ],
+   "duration": 6.456
+  },
+  "r2-pax2": {
+   "hash": "79776514d9c9",
+   "sentenceTimes": [
+    0
+   ],
+   "duration": 2.519
+  },
+  "r2-pub1-kind": {
+   "hash": "02d41704c560",
+   "sentenceTimes": [
+    0,
+    3.227
+   ],
+   "duration": 6.016
+  },
+  "r2-pub1": {
+   "hash": "947d802e781b",
+   "sentenceTimes": [
+    0
+   ],
+   "duration": 2.131
+  },
+  "r2-pub2-kind": {
+   "hash": "d8b601b2b30f",
+   "sentenceTimes": [
+    0
+   ],
+   "duration": 1.325
+  },
+  "r2-pub2": {
+   "hash": "1ec27a8123d4",
+   "sentenceTimes": [
+    0
+   ],
+   "duration": 2.166
+  },
+  "others-r2-clock": {
+   "hash": "7e7fa58f1b34",
+   "sentenceTimes": [
+    0,
+    1.4,
+    7.993,
+    10.999
+   ],
+   "duration": 14.013
+  },
+  "others-r2-reseat": {
+   "hash": "3be25f3f0b80",
+   "sentenceTimes": [
+    0,
+    1.739
+   ],
+   "duration": 7.507
+  },
+  "r2-carry1": {
+   "hash": "b9658e4af63d",
+   "sentenceTimes": [
+    0,
+    0.752,
+    4.922
+   ],
+   "duration": 8.371
+  },
+  "r2-carry2": {
+   "hash": "c288d8301abd",
+   "sentenceTimes": [
+    0,
+    3.959
+   ],
+   "duration": 5.495
+  },
+  "others-r2-start": {
+   "hash": "6ded399885ca",
+   "sentenceTimes": [
+    0
+   ],
+   "duration": 4.607
+  },
+  "r2-confirm5": {
+   "hash": "0ece4bf91337",
+   "sentenceTimes": [
+    0
+   ],
+   "duration": 1.133
+  },
+  "others-r2-bram-build": {
+   "hash": "a8cacb06a564",
+   "sentenceTimes": [
+    0
+   ],
+   "duration": 5.165
+  },
+  "r2-confirm6": {
+   "hash": "0ece4bf91337",
+   "sentenceTimes": [
+    0
+   ],
+   "duration": 1.133
+  },
+  "r2-confirm7": {
+   "hash": "0ece4bf91337",
+   "sentenceTimes": [
+    0
+   ],
+   "duration": 1.133
+  },
+  "close-lines": {
+   "hash": "0f480c09ad0e",
+   "sentenceTimes": [
+    0,
+    1.987,
+    6.558,
+    10.693,
+    16.927
+   ],
+   "duration": 18.878
+  },
+  "close-loops": {
+   "hash": "19fc0762b8da",
+   "sentenceTimes": [
+    0,
+    4.181
+   ],
+   "duration": 11.943
+  },
+  "close-zones": {
+   "hash": "312bc7cda05c",
+   "sentenceTimes": [
+    0,
+    2.392,
+    6.289
+   ],
+   "duration": 9.616
+  },
+  "close-end": {
+   "hash": "80027a7dfd4f",
+   "sentenceTimes": [
+    0,
+    1.784,
+    4.803,
+    7.776
+   ],
+   "duration": 12.475
+  },
+  "close-score": {
+   "hash": "2519267c4de5",
+   "sentenceTimes": [
+    0,
+    3.182,
+    4.583
+   ],
+   "duration": 10.595
+  },
+  "close-aid": {
+   "hash": "821335bf9daa",
+   "sentenceTimes": [
+    0,
+    5.94
+   ],
+   "duration": 7.517
+  },
+  "others-r1-start": {
+   "hash": "b5d20035e802",
+   "sentenceTimes": [
+    0,
+    1.774
+   ],
+   "duration": 5.802
+  },
+  "r1-actions": {
+   "hash": "f196a5e76a02",
+   "sentenceTimes": [
+    0,
+    2.337,
+    4.877,
+    6.687,
+    9.793,
+    11.65,
+    14.153,
+    14.906,
+    16.937
+   ],
+   "duration": 19.584
+  },
+  "r1-choose": {
+   "hash": "86db18e344d3",
+   "sentenceTimes": [
+    0,
+    4.743,
+    9.396
+   ],
+   "duration": 13.076
+  }
+ }
+}

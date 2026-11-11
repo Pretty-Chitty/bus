@@ -1,0 +1,20 @@
+(node:1773) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///Users/joshbreckman/Documents/gameengine/bus/dist/node.d1508d120d7023cfd05b.js is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to /Users/joshbreckman/Documents/gameengine/bus/package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  … 15s: round 8 markers, 490 changes, VP 8/6/6/5, stones 0/0/0/0, markers 0/0/0/0, line 12/10/13/9
+  … 30s: round 8 markers, 490 changes, VP 8/6/6/5, stones 0/0/0/0, markers 0/0/0/0, line 12/10/13/9
+  … 45s: round 8 markers, 490 changes, VP 8/6/6/5, stones 0/0/0/0, markers 0/0/0/0, line 12/10/13/9
+  … 60s: round 8 markers, 490 changes, VP 8/6/6/5, stones 0/0/0/0, markers 0/0/0/0, line 12/10/13/9
+  … 75s: round 8 markers, 490 changes, VP 8/6/6/5, stones 0/0/0/0, markers 0/0/0/0, line 12/10/13/9
+  … 90s: round 8 markers, 490 changes, VP 8/6/6/5, stones 0/0/0/0, markers 0/0/0/0, line 12/10/13/9
+  … 105s: round 8 markers, 490 changes, VP 8/6/6/5, stones 0/0/0/0, markers 0/0/0/0, line 12/10/13/9
+  … 120s: round 8 markers, 490 changes, VP 8/6/6/5, stones 0/0/0/0, markers 0/0/0/0, line 12/10/13/9
+  … 135s: round 8 markers, 490 changes, VP 8/6/6/5, stones 0/0/0/0, markers 0/0/0/0, line 12/10/13/9
+  … 150s: round 8 markers, 490 changes, VP 8/6/6/5, stones 0/0/0/0, markers 0/0/0/0, line 12/10/13/9
+  … 165s: round 8 markers, 490 changes, VP 8/6/6/5, stones 0/0/0/0, markers 0/0/0/0, line 12/10/13/9
+  … 180s: round 8 markers, 490 changes, VP 8/6/6/5, stones 0/0/0/0, markers 0/0/0/0, line 12/10/13/9
+  … 195s: round 8 markers, 490 changes, VP 8/6/6/5, stones 0/0/0/0, markers 0/0/0/0, line 12/10/13/9
+  … 210s: round 8 markers, 490 changes, VP 8/6/6/5, stones 0/0/0/0, markers 0/0/0/0, line 12/10/13/9
+  … 225s: round 8 markers, 490 changes, VP 8/6/6/5, stones 0/0/0/0, markers 0/0/0/0, line 12/10/13/9
+  … 240s: round 8 markers, 490 changes, VP 8/6/6/5, stones 0/0/0/0, markers 0/0/0/0, line 12/10/13/9

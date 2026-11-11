@@ -1,0 +1,8 @@
+{
+  "overrides": {
+    "buses": { "maxWidth": 300, "maxHeight": 200, "format": "jpg" },
+    "standee": { "maxWidth": 376, "maxHeight": 241, "format": "jpg" },
+    "clock": { "maxWidth": 256, "maxHeight": 256, "format": "png", "palette": true }
+  },
+  "default": { "maxWidth": 192, "maxHeight": 192, "format": "png", "palette": true }
+}

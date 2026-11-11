@@ -1,0 +1,25 @@
+(node:10120) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///Users/joshbreckman/Documents/gameengine/bus/dist/node.c8030d2cc2b1708f7f91.js is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to /Users/joshbreckman/Documents/gameengine/bus/package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ai: prompts 412, stepBacks 0, rejections 0, stalls 0, stuck 0, ruleErrors 0, untagged {}
+game 1: finished in 1.0s — winner Robot 1 8 VP [round 9 markers, 516 changes, VP 6/4/5/8, stones 0/0/0/0, markers 1/0/0/0, line 15/11/10/13]
+  ai: prompts 397, stepBacks 0, rejections 0, stalls 0, stuck 0, ruleErrors 0, untagged {}
+game 2: finished in 0.8s — winner Robot 4 8 VP [round 9 markers, 482 changes, VP 4/1/7/8, stones 0/0/0/0, markers 0/0/2/0, line 9/10/13/12]
+  ai: prompts 420, stepBacks 0, rejections 0, stalls 0, stuck 0, ruleErrors 0, untagged {}
+game 3: finished in 1.0s — winner Robot 1 8 VP [round 8 locations, 505 changes, VP 8/6/5/6, stones 0/0/0/0, markers 0/0/0/0, line 13/13/8/17]
+  ai: prompts 409, stepBacks 0, rejections 0, stalls 0, stuck 0, ruleErrors 0, untagged {}
+game 4: finished in 1.0s — winner Robot 1 6 VP [round 9 markers, 494 changes, VP 6/4/6/6, stones 0/0/0/0, markers 0/0/0/0, line 13/14/12/9]
+  ai: prompts 437, stepBacks 0, rejections 0, stalls 0, stuck 0, ruleErrors 0, untagged {}
+game 5: finished in 1.0s — winner Robot 2 14 VP [round 9 markers, 527 changes, VP 8/14/6/4, stones 0/0/0/0, markers 0/0/0/0, line 14/16/10/21]
+  ai: prompts 414, stepBacks 0, rejections 0, stalls 0, stuck 0, ruleErrors 0, untagged {}
+game 6: finished in 1.0s — winner Robot 2 11 VP [round 9 markers, 506 changes, VP 11/5/9/5, stones 0/0/0/0, markers 0/0/0/0, line 13/5/13/10]
+  ai: prompts 422, stepBacks 0, rejections 0, stalls 0, stuck 0, ruleErrors 0, untagged {}
+game 7: finished in 1.0s — winner Robot 1 11 VP [round 9 markers, 508 changes, VP 11/7/6/7, stones 0/0/0/0, markers 0/0/0/2, line 10/14/14/7]
+  ai: prompts 426, stepBacks 0, rejections 0, stalls 0, stuck 0, ruleErrors 0, untagged {}
+game 8: finished in 1.0s — winner Robot 4 15 VP [round 9 markers, 510 changes, VP 15/5/5/10, stones 0/0/0/0, markers 0/0/0/0, line 11/11/12/10]
+  ai: prompts 419, stepBacks 0, rejections 0, stalls 0, stuck 0, ruleErrors 0, untagged {}
+game 9: finished in 1.0s — winner Robot 2 11 VP [round 9 markers, 511 changes, VP 7/11/5/5, stones 0/0/0/0, markers 0/0/0/0, line 11/13/14/11]
+  ai: prompts 422, stepBacks 0, rejections 0, stalls 0, stuck 0, ruleErrors 0, untagged {}
+game 10: finished in 1.0s — winner Robot 4 11 VP [round 9 markers, 507 changes, VP 11/7/10/2, stones 0/1/0/0, markers 0/0/0/0, line 15/9/14/11]
+10/10 games finished

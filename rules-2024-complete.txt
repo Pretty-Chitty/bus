@@ -1,0 +1,227 @@
+bus
+                                                                                                                                                                                          START
+
+                                                                                                           B e e p ! B e e p !
+                                                                                                            In a rapidly expanding city, it’s crucial for public transit to keep up
+                                                                                                            with growth, lest the city become choked with traffic.
+
+
+                                                                                                            Each of you has been put in charge of a bus line. Extend your bus
+                                                                                                            line, add more buses, and get passengers where they need to go at
+                                                                                                            that time of day — it’s the only way to earn points! As the city sprawls,
+                                                                                                            new buildings are erected, and that means more destinations for
+                                                                                                            more passengers. You may want to spend some of your finite supply
+                                                                                                            of actions to choose which buildings appear, and where they go, so
+                                                                                                            passengers need to use your line to reach their next destination….
+
+
+
+
+                                                                                                            Contents
+
+city centre
+
+
+timetable and                                                                                                     1 gameboard           125 Bus Line markers
+                                                                                                                                         25 × 5 player colors
+                                                                                                                                                                  100 Action markers
+                                                                                                                                                                   20 × 5 player colors
+                                                                                                                                                                                               25 buses
+                                                                                                                                                                                           5 × 5 player colors
+
+
+
+
+route map
+                                                                                                                                           5 Score disks
+                                                                                                                 15 passengers                                      5 Time stones          90 Building discs
+                                                                                                                                          1 × 5 player colors
+
+
+
+
+                                                                                                                                                                                             Traveilals
+                                                                                                                                                                                            essent
+                                                                                                                                                                  1 two-piece plastic
+                                                                                                                    Start bus              1 clock hand
+                                                                                                                                                                       fastener
+October 1999
+
+
+
+
+Assembly                                              First Bus Lines
+
+Before your first game, attach the clock hand to      One time around in turn order, each player         Repeat this process so everyone places a               M is the bus maximum, defined as the number
+the clock face on the board using the fastener.       places one of their Bus Line markers on any        second Action marker (you can even choose              of buses that the person with the most has in
+                                                      street — even if another Bus Line marker is        the same action again).                                the Buses area. In other words, the maximum
+Setting Up                                            already on it.                                                                                            number of buses in a column there. At the
+                                                                                                         After these first two mandatory Action markers,        beginning of the game, this will be 1, but by the
+Place the gameboard in the middle of the              Then, one time around in reverse turn order,       continue in turn order, either dropping out of         end, it could be as many as 5. See example
+table. Each player chooses a color and                each player places a second Bus Line marker        action selection, or placing another Action            under Action: Line Expansion.
+takes the Score disc, 5 buses, 20 Action              continuing from one of the ends of their           marker. You are allowed to place as many
+markers, and 25 Bus Line markers of that              previous marker. You must place this second        Action markers as you like during a round, but
+color. Place the 5 Time stones on their               marker in an unoccupied street* if you can;        placed Action markers are spent, never to be           Action: Line Expansion
+spaces on the time-control device attached            otherwise, it doesn’t matter how many other        recovered, and when you have no more Action            You can only pick up passengers on your
+to the clock (3-player game: Use only 4               players’ bus lines are on the chosen street.       markers, you will take no more actions for the         bus line, and you can only deliver them to
+Time stones; it doesn’t matter which space                                                               rest of the game!                                      buildings on your bus line. Inconveniently, City
+you leave empty). Point the clock hand at                                                                                                                       Council demands as little bus line overlap
+the house. Place 4 passengers around Central          * Exception: If your bus line ends at the same     Once everyone has dropped out of action                as possible, in an attempt to serve everyone,
+Park: 1 passenger on each roundabout.                   intersection as another player’s bus line,       selection, continue to the next phase.                 everywhere in the city.
+                                                        but coming from a different direction, you
+Each player: Place your Score disc on space             may continue your bus line alongside theirs,                                                            Line Expansion is an action with dwindling
+0 of the Score track on the left side of the            rather than onto an unoccupied street.           Phase 2: Resolve Actions                               action power. A is on the right, so the first to
+gameboard. Place 1 of your buses on 1 of your                                                                                                                   resolve the action gets to do it the least.
+spaces in the Buses area on the right side of                                                            Resolve the actions from top to bottom
+the gameboard.                                                                                           on the gameboard, starting with Line
+                                                      Play                                               Expansion and ending with Starting Player.
+The last person to ride a bus takes the Start                                                            For multi-use actions, resolve them left to
+bus and will go first (or choose randomly).           Each round of the game comprises two               right, despite alphabetical order. This means
+Turn order is clockwise, starting with this player.   phases: Select Actions, then Resolve Actions.      that for Line Expansion and Buildings, the
+                                                                                                         last person to select it will resolve it first;
+                                                                                                         for Passengers and Vrrooomm!, the first to             Example: This action has 4 Action markers
+First Buildings                                       Phase 1: Select Actions                            select it will resolve it first.                       placed, which means spaces A–D are
+                                                                                                                                                                occupied by Green, Purple, Blue, Purple,
+One time around in turn order, each player            In turn order, each player selects an action       When it is time for one of your Action markers         respectively. If Purple has 2 buses; Blue, 3;
+chooses 2 unoccupied, lowest-number                   by placing one of their Action markers on a        to resolve its action, you must resolve it as fully    and Green, 1; then M = 3. So, because Action
+construction sites (the lowest number is 1 at         space along the right side of the gameboard        as possible; you cannot opt to do fewer actions.       markers resolve left to right, Purple, who is on
+this stage), and places a building on each —          (the actions are explained in Phase 2: Resolve                                                            space D, gets to expand their bus line first, but
+each building can be any type:                        Actions). The actions Buses, Clock, and            Some multi-use actions have dwindling action           3 − 3 = 0; in their excitement to go first, Purple
+                                                      Starting Player each have only 1 space. The        power, which you can tell by the negative              didn’t notice that they weren’t going to get to
+                                                      other actions have spaces labeled A–F, and         numbers depicted beneath most of its spaces.           place any Bus Line markers! Blue, on C, gets to
+      Houses
+                                                      we’ll call these actions multi-use actions; when   This means that the Action marker on A lets            place 3 − 2 = 1 Bus Line marker. Purple’s other
+                                                      you select a multi-use action, place your          its owner perform the action M times; B, M             marker (on B) gets to extend the purple line 3
+      Offices
+
+                             s
+                                                      Action marker on the empty space earliest          − 1 times; C, M − 2, etc. If your action power is      − 1 = 2 times, and Green’s (on A) gets to extend
+
+
+                       Placveisit
+      Pubs                                            in the alphabet (e.g. A for the first player to    less than or equal to 0, you won’t perform the         the green line 3 times.
+                                                      choose it, B for the second, and so on).           action at all, so pay attention!
+
+                        to
+               ntin            ues
+The journey co
+   Each time you resolve an Action marker here,
+   you must extend your bus line a number of
+   streets equal to its action power (5-player
+   game: action power + 1, but only for Line
+   Expansion). The rules you respected in First
+   Bus Lines still apply, but there are two more,
+   as well. So you have them all in one place,
+   here they are:                                         Example: Blue can extend their bus line from A          Example (full-line loop): In this example (left),     Action: Passengers
+                                                          or B. From A, the only option is in the direction       Purple is extending their bus line on the shaded      New passengers stream into the city by train.
+   1. The line must be set up so a bus could travel       of the blue arrow, because A is in the middle           street, forming a full-line loop. Purple can          The train stations bustle with passengers
+      from one end of the line to the other by            of the red line. From B, there are three options        choose whether the line was extended from A           rushing home, or to work, or out for a drink....
+      taking each street on the line exactly once.        (blue arrows): down-right onto the empty street;        to B, or from B to A.
+      Specifically:                                       up-right (using the exception) to overlap the                                                                 Passengers is an action with dwindling action
+      a. Your bus line must always be a non-              abutting yellow line; up-left onto the empty            If Purple says it’s from A to B (center), they        power. A is on the left, so the first to resolve the
+         branching line of Bus Line markers;              street. This last option would create a partial-line    place a spent Action marker on each end of            action gets to do it the most.
+         however, it can loop to cross itself.            loop, so Blue would place a spent Action marker         their bus line where it meets at B, so it’s clear
+      b. Your bus line cannot overlap itself; that is     on the new Bus Line marker, so everyone would           where the ends are. The next time Purple              Each time you resolve an Action marker here,
+         to say that you can’t have 2 of your own         be able to see where the end is (both for Blue          extends their bus line, it will be from B onto one    you must add a number of passengers equal
+         Bus Line markers on the same street.             extending it later, and for other players to use        of the adjoining streets (purple arrows).             to its action power (if the supply runs out, do
+                                                          the exception to overlap that final segment).                                                                 not place any more). Each passenger must go
+   2. If your bus line ever forms a loop, both ends                                                               If Purple says it’s from B to A (right), they place   on a train station of your choice (there are
+      still exist. Place a spent Action marker on the     Red can extend their bus line from C or D. From         a spent Action marker on each end of their bus        2 on the map), and it doesn’t matter whether
+      Bus Line marker end that touches another            C, all streets are occupied (by the yellow line),       line where it meets at A. The next time Purple        your bus line connects to the station(s).
+      part of your line (if that’s both ends, mark        so with no empty streets, either direction is           extends their bus line, it will be from A onto one
+      both). Once that end has been extended              permissible (red arrows). From D, there is only         of the adjoining streets (purple arrows).
+      to an unambiguous location, remove the              one option, because there is one unoccupied                                                                   Action: Buildings
+      Action marker from it (return it to the box).       street (red arrow).                                                                                           This city is developing quickly. Houses, offices,
+                                                                                                                  Action: Buses                                         and pubs seem to pop up constantly!
+   3. You must place each Bus Line marker on an                                                                   The more buses on a bus line, the more
+      unoccupied street* if you can; otherwise, it                                                                passengers you can transport!                         Buildings is an action with dwindling action
+      doesn’t matter how many other players’ bus                                                                                                                        power. A is on the right, so the first to resolve
+      lines are on the chosen street.                                                                             When you resolve your Action marker here,             the action gets to do it the least.
+                                                                                                                  you must add 1 of your buses to 1 of your empty
+                                                                                                                  spaces here. If you had (or were tied for) the        Each time you resolve an Action marker here,
+   * Exception: If your bus line ends at the same                                                                 most buses, your new bus increases the bus            you must erect a number of buildings equal to
+     intersection as another player’s bus line, but                                                               maximum (M) immediately, which will affect            its action power. Each building must go on a
+     coming from a different direction, you may           Example (partial-line loop): Continuing from            subsequent dwindling-action-power actions             lowest-number unoccupied construction site
+     continue your bus line alongside theirs for 1        the prior example, let’s say Blue extends from          this round!                                           (it doesn’t have to be on anyone’s bus line).
+     street, rather than onto an unoccupied street.       B up-left, creating a partial-line loop. Blue                                                                 At the beginning of the game, this will be 1;
+                                                          places a spent Action marker on the end of                                                                    however, once the 1s are full, you must
+
+
+                                                                                                                                          Almost
+                                                          the bus line to make it clear to everyone where                                                               build on 2, and so on.
+                                                          it is. The next time Blue extends their bus line, it
+                                                          can either be from A, same as before, or from
+                                                          E. From E, Blue’s only options are the 2 empty                                    there!                      If all construction sites are
+                                                                                                                                                                        occupied, the game ends
+                                                          streets (blue arrows).                                                                                        at the end of this round.
+
+
+   © City Transit Authority
+
+
+
+
+   Action: Clock                                          • The passenger is at an intersection, not              Example 2: Now it’s time to resolve the               Return all spent Action markers to the box.
+   In this strange universe, someone with a                 already standing on a Building disc.                  Vrrooomm! action (right). Yellow is first, and
+   scientific bent, but little regard for cosmic          • The passenger is at an intersection on your           has 3 buses; unfortunately, the passenger at D        If only 1 player still has Action markers,
+   consequences has created a device that can               bus line.                                             is the only one who needs a ride on the yellow        the game ends immediately.
+   stretch time. They’re thrilled to demonstrate it for   • An empty building of the specified type is on         line. Yellow moves the passenger from D to
+   anyone curious, even the local bus companies!            your bus line.                                        occupy the office at C. +1 point for Yellow.
+                                                                                                                                                                        End of the Game
+                                                           Only 1 passenger per bus!
+   When you resolve your Action marker here,                                                                      Green has 2 buses, and there are multiple
+   you choose whether to pause the cadence                                                                        passengers (1 at A, 4 at the train station) eager     The game can end in 1 of 3 ways:
+   of house office pub house…. If you pause               In other words, you can transport a waiting             to ride the green line. Unfortunately, the only
+   time, take a Time stone from the clock; it will        passenger on your bus line to an empty                  available office on the green line is at B, so        • If all construction sites are occupied by
+   count as −1 point for you at the end of the            building of the right type on your bus line.            Green chooses to move a passenger from the              buildings, the game ends at the end of the
+   game. If you took the final Time stone from                                                                    train station to the office at B. +1 point.             round.
+   the clock, the game ends immediately due to            Note: You do not actually move your bus                                                                       • If the clock has no more Time stones, the
+   rupture of the space-time continuum.                   pieces on the map. If it helps you to do so, you        Blue has 3 passengers (1 at F, 2 at G) awaiting         game ends immediately.
+                                                          could, but put them back in the Buses area              rides on the blue line to 3 offices on the blue       • If only 1 player has Action markers at the end
+   Otherwise, advance the clock to the next build-        after your turn.                                        line, but blue only has 2 buses. Blue moves             of the round, the game ends immediately.
+   ing type clockwise: house office pub house.                                                                    the passenger from F to an office, and 1 of the
+                                                                                 1                           2
+                                                                                                                  passengers at G to an office. +2 points.              Each Time stone you have is −1 point, but don’t
+   Either way, passengers prepare to travel to                                                                                                                          move down on the Score track. The player with
+   their new destination (or same destination, if                                                                                                                       the most points wins. If tied, the tied player with
+   you paused time):                                                                                              Action: Starting Player                               the most Time stones wins. If still tied, the tied
+                                                                                                                  Spending an action now grants you first               player whose Score marker is lowest in its stack
+   1. Move all passengers that are on Building                                                                    choice next round!                                    wins (they reached that score first).
+      discs to stand on/near the intersection there.
+   2. Each passenger standing at the same                                                                         When you resolve your Action marker here,
+                                                                                                                                                                                       ched
+                                                                                                                                                                            You’ve rea ation
+      intersection as their destination (as indicated                                                             take the Start bus; you will be the starting
+      by the clock hand), steps right in if the                                                                   player next round.
+                                                                                                                                                                                       n
+      building is empty: Stand the passenger on
+      the unoccupied Building disc.                                                                               If nobody chose this action, pass the Start bus           your desti
+                                                                                                                  clockwise.
+    Only 1 passenger per building!
+
+
+   Passengers still outside buildings will need to
+   catch a bus to get to their destination!
+
+
+
+   Action: Vrrooomm!                                      Example 1: The person who selected the Clock           Credits
+   Run your buses along your bus line,                    action allows time to march forward, and               Game Design:       Jeroen Doumen & Joris Wiersinga
+                                                                                                                                                                                            www.splotter.nl
+   transporting passengers where they need                now passengers want to go to work (left). All          Editing:           Nathan Morse
+                                                                                                                                                                                            info@splotter.nl
+   to go right now, and earning you points!               passengers on Building discs step into the             Illustrations:     Daan van Paridon
+                                                          adjacent intersection. Then 2 of the passengers        Graphic Design:    Thijs van Paridon
+                                                                                                                                                                                            www.capstone-games.com
+   Each time you resolve an Action marker here,           at A simply step onto the office beside them.                                                                                     info@capstone-games.com
+   you must try to use each of your buses to              The passenger at B enters 1 of the offices at B.       Tested by (thank you very much!):
+   transport 1 passenger to their destination             The passenger at E enters the office at E, having      Alan How, Bas de Bakker, Ben Baldanza, Bianca van Duijl,
+                                                                                                                                                                                               @Capstone_Games
+   (an umpty building of the type indicated               freshly left home there. The 3rd passenger at A        Corné van Moorsel, Gerard Mulder, Koen Haverkort, Leendert
+                                                                                                                                                                                               /CapstoneGames
+   by the clock hand), and stand them on the              and the passengers at D, F, and G will need to         van der Meij, Matthias Hardel, Mirjam Molenkamp, Pieter
+   unoccupied Building disc. For each passenger           ride to work, so they move into their respective       Simoons, Ragnar Krempel, Richard Molenkamps, authors,
+   you transport, earn 1 point. You can transport a       intersections to try to catch a bus.                   publishers and others, sorry if we forgot to put you on the list.
+   passenger if all of the following are true:
+                                                                                                                 © 2024 Capstone Games | All rights reserved.
+
