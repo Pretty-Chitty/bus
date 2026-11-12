@@ -24,8 +24,12 @@ function passengerGeometry() {
 
 /** A passenger (C5): an orange wooden figure, traced from the board's own passenger icon. */
 export class Passenger extends Chit {
+  /** Look only: picked up for a Vrrooomm!, waiting to be told where to go. */
+  raised = false;
+
   render(spec: ChitRenderSpec): void {
     piece(spec);
+    if (this.raised) spec.offsetZ = 0.6;
     // a standing piece needs its own light, or its camera-facing side reads nearly black
     const mesh = new Mesh(passengerGeometry(), wood(PASSENGER_COLOR, 0.35));
     mesh.castShadow = true;

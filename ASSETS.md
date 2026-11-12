@@ -31,7 +31,7 @@ Shipped total (`src/assets/output/`): **≈ 927 KB**.
 | `buildings/house, office, pub` | building disc faces: the mod's icons, a third bigger, on one hue per kind (cream, teal, brick; not the print's three blue-greys, which could not be told apart at phone size) | TTS mod | 256 px JPG |
 | `geometry/shapes.ts` | the passenger figure's outline, traced from the board's passenger icon | board scan | 43 points |
 | `static/boxArt.jpg` | the 2019 cover | BoardGameGeek | 600 px, 78 KB |
-| `static/screenshot.jpg` | the port, round 1 | `scripts/screenshot.mjs` | 1800 × 1050, 300 KB |
+| `static/screenshot.jpg` | the port, demo at the opening building placement | `scripts/screenshot.mjs` | 1800 × 1050, 270 KB |
 
 ## Drawn in code (no images)
 

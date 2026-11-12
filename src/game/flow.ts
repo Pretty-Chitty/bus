@@ -1,5 +1,5 @@
 // The game, in the rulebook's order. Rule ids refer to RULES.md.
-import { Chit, DragTarget, Turn } from "@pretty-chitty/core";
+import { Chit, Turn } from "@pretty-chitty/core";
 import { Street } from "../chits/Street";
 import { Root } from "../chits/Root";
 import { Player } from "../chits/Player";
@@ -49,6 +49,7 @@ import {
   openZone,
   resolutionOrder,
   vroomOptions,
+  busPath,
   finalStandings,
 } from "../rules";
 
@@ -588,29 +589,46 @@ const RESOLVE: Record<ActionId, (turn: AnyTurn, root: Root) => Promise<void>> = 
         for (;;) {
           const o = vroomOptions(root, p, buses - carried);
           if (o.max === 0) break;
+          const help = `Each bus carries one passenger standing at a crossing on your line to a free ${clockKind(root)} on your line. You must carry as many as you can: ${first.max} this time.`;
           let who: Passenger | undefined;
           let into: Building | undefined;
-          t.markZipStartPoint();
-          await t.pick(
-            `drag a waiting passenger to a free ${clockKind(root)} on their line (${carried + 1} of ${first.max})`,
-            `Each bus carries one passenger standing at a crossing on your line to a free ${clockKind(root)} on your line. You must carry as many as you can: ${first.max} this time.`,
-            [
-              Chit.dragPick(o.passengers, [
-                DragTarget.from(o.buildings, (w: Passenger, b: Building) => {
-                  who = w;
-                  into = b;
-                }),
-              ])
+          // Not zipped: everyone watches the passenger rise, come down and ride. A zip here rewrites history, and a
+          // board that is caught up then jumps to the latest moment, skipping the ride.
+          const raise = (w: Passenger) => {
+            if (who) who.raised = false;
+            who = w;
+            w.raised = true;
+          };
+          await t.pick(`pick up a waiting passenger (${carried + 1} of ${first.max})`, help, [
+            Chit.pick(o.passengers, raise).focus(root.mainBoard).ai("vroom.passenger"),
+          ]);
+          t.flush();
+          while (!into) {
+            const others = o.passengers.filter((w) => w !== who);
+            await t.pick(`choose a free ${clockKind(root)} for the passenger`, help, [
+              Chit.pick(o.buildings, (b: Building) => {
+                into = b;
+              })
                 .focus(root.mainBoard)
-                .ai("vroom.move"),
-            ],
-          );
+                .ai("vroom.building"),
+              ...(others.length ? [Chit.pick(others, raise).ai("vroom.switch")] : []),
+            ]);
+            t.flush();
+          }
           answered(p);
+          who!.raised = false;
+          t.flush();
+          // VR5: the bus drives along the line, a street at a time
+          const from = (who!.parent as Crossing).crossingId;
+          const to = (into!.parent as Location).crossingId;
+          for (const id of busPath(p, from, to).slice(1)) {
+            root.mainBoard.crossing(id).passengers.add(who!);
+            t.flush();
+          }
           into!.passenger = who!;
           carried++;
           score(root, p, 1);
           t.flush();
-          t.zip();
         }
         t.log(`${p.logKey} runs ${buses === 1 ? "their bus" : `their ${buses} buses`}: ${carried} :passenger: carried, +${carried}.`);
       });

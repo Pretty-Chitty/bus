@@ -77,7 +77,7 @@ The narration is a draft in the macOS system voice (Samantha, `scripts/tutorial/
 | CL9 | shown | others-r1-reseat, others-r2-reseat |
 | VR1–VR5 | shown | r1-vroom, r1-carry, r2-carry1 |
 | VR6–VR11 | shown | others-r1-reseat, others-r2-reseat |
-| VR12–VR16 | shown | r2-carry1, r2-carry2 |
+| VR12–VR16 | shown | r2-carry1, r2-carry1-to, r2-carry2, r2-carry2-to (the player chooses which passengers and pubs: VR15) |
 | VR17 | explained | r2-vroom |
 | VR18–VR19 | shown | r1-carry |
 | VR20 | shown | others-r2-reseat |

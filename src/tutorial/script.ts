@@ -91,10 +91,7 @@ const option = (kind: "house" | "office" | "pub") => (root: Root) => root.mainBo
 /** The first half of a placement is done: the kind is chosen (or the building already stands). */
 const kindChosen = (kind: "house" | "office" | "pub", where: string) =>
   state((root) => root.mainBoard.placing === kind || root.mainBoard.location(where).building?.kind === kind);
-// For a drag's `allow`, select the piece by what it is, never by where it is: a drop the guard refuses is
-// still made locally on the person's board, so the piece may now sit somewhere else in their view, and a
-// selector by place would then refuse their next, correct drop too. Pieces already placed are not
-// draggable, so this cannot let a wrong move through.
+// Every passenger on the board, waiting at a crossing or sitting in a building.
 const anyPassenger = (root: Root) =>
   [
     ...root.mainBoard.roads.crossings.copy().flatMap((c) => c.passengers.copy()),
@@ -135,6 +132,9 @@ const bramLine = lineOf((r) => bram(r));
 const clockHand = (root: Root) => root.mainBoard.clockHand;
 const stones = (root: Root) => root.mainBoard.stoneSpaces.map((s) => s.stone).filter(Boolean) as Chit[];
 const passengersAt = (id: string) => (root: Root) => root.mainBoard.crossing(id).passengers.copy();
+/** Round 2's "Vrrooomm!": the passengers waiting on your line (office crossing and station), and the pubs still free. */
+const waitingOnMyLine = (root: Root) => [...passengersAt("X09")(root), ...passengersAt("X10")(root)];
+const freePubs = (root: Root) => ["L102", "L103"].map((id) => root.mainBoard.location(id).building).filter((b): b is NonNullable<typeof b> => !!b && !b.passenger);
 const startBus = (root: Root) => root.players.copy().map((p) => p.startBus).find(Boolean);
 
 // ------------------------------------------------------------------------------------- checks ---
@@ -156,6 +156,8 @@ function confirmed(hint: string): Checker<Player, Root> {
   return check;
 }
 const state = (f: (root: Root, me: Player) => boolean) => checks.state<Player, Root>(f);
+/** A passenger picked up for a Vrrooomm!, waiting to be told where to go. */
+const pickedUp = state((root) => anyPassenger(root).some((w) => (w as any).raised));
 const builtCount = (n: number) => state((root) => root.mainBoard.locations.filter((l) => !!l.building).length >= n);
 const linesLaid = (n: number) => state((root) => root.mainBoard.roads.streets.reduce((s, st) => s + st.markers.length, 0) >= n);
 const built = (id: string, kind: string) => state((root) => root.mainBoard.location(id).building?.kind === kind);
@@ -417,7 +419,7 @@ function intro(t: Strings, pins: Pins): TutorialSpec<Player, Root> {
       beats("tray", [
         ["", [{ ring: myMarkers, arrow: true }]],
         ["depot", [{ ring: myBuses, arrow: true }]],
-        ["four more", [{ ring: (_root: Root, me: Player) => me.buses.copy(), arrow: true }]],
+        ["other four", [{ ring: (_root: Root, me: Player) => me.buses.copy(), arrow: true }]],
         ["start-bus", [{ ring: startBus, arrow: true }]],
       ]),
     ),
@@ -478,13 +480,13 @@ function intro(t: Strings, pins: Pins): TutorialSpec<Player, Root> {
       "r1-actions",
       beats("r1-actions", [
         ["", [{ ring: (root) => [...allSpaces(root), ...root.mainBoard.actionLabels.copy(), root.mainBoard.clockHand] }]],
-        ["Line Expansion", rowNamed("lineExpansion")],
-        ["Buses buys", rowNamed("buses")],
-        ["Passengers brings", rowNamed("passengers")],
-        ["Buildings puts", rowNamed("buildings")],
-        ["The Clock", rowNamed("clock")],
-        ["Vrrooomm", rowNamed("vroom")],
-        ["Starting Player", rowNamed("startingPlayer")],
+        ["“Line Expansion”", rowNamed("lineExpansion")],
+        ["“Buses” buys", rowNamed("buses")],
+        ["“Passengers” brings", rowNamed("passengers")],
+        ["“Buildings” puts", rowNamed("buildings")],
+        ["The “Clock”", rowNamed("clock")],
+        ["“Vrrooomm!”", rowNamed("vroom")],
+        ["“Starting Player”", rowNamed("startingPlayer")],
       ]),
     ),
     narrate(
@@ -509,8 +511,8 @@ function intro(t: Strings, pins: Pins): TutorialSpec<Player, Root> {
         ["", named("buses")],
         ["Each bus carries", [{ ring: myBuses, arrow: true, zoom: false }]],
         ["Whoever has the most buses", [{ ring: actionRow("passengers"), zoom: false }, { ring: actionRow("buildings"), zoom: false }]],
-        ["Space B", [{ ring: space("passengers", "B"), arrow: true, zoom: false }, { ring: space("buildings", "B"), arrow: true, zoom: false }]],
-        ["Buses happens before", [...named("buses", "A", { zoom: false })]],
+        ["On space B", [{ ring: space("passengers", "B"), arrow: true, zoom: false }, { ring: space("buildings", "B"), arrow: true, zoom: false }]],
+        ["“Buses” happens before", [...named("buses", "A", { zoom: false })]],
       ]),
     }),
     confirm("r1-confirm2"),
@@ -541,14 +543,13 @@ function intro(t: Strings, pins: Pins): TutorialSpec<Player, Root> {
       ...upTo(state((root) => root.mainBoard.locations.some((l) => !!l.building?.passenger))),
       focus: [{ ring: (root) => root.mainBoard.locations.map((l) => l.building?.passenger).filter(Boolean) as Chit[], separate: true, arrow: true }, { arrow: passengersAt("X14") }],
     }),
-    // A drag: arrows only, from the passenger and to the building. A box on the piece being dragged follows it
-    // about and looks broken (the developer).
+    // One waiting passenger and one free office: nothing to choose, so the engine carries them without a prompt
     doIt(
       "r1-carry",
-      { key: "vroom.move", chit: anyPassenger, target: building("L101") },
+      [],
       state((_root, me) => me.score >= 1),
       // the round ends with no decision after this: hold its end here, before the board can run past it
-      { ...upTo(r1Start), focus: [{ arrow: (root) => passengersAt("X14")(root)[0] }, { arrow: building("L101") }] },
+      { ...upTo(r1Start), focus: [{ ring: building("L101"), arrow: true }] },
     ),
     watch("others-r1-start", "p2", r1Start, { focus: [...named("startingPlayer"), { ring: startBus, arrow: true }] }),
     narrate("r1-end", { focus: [{ ring: allSpaces }] }),
@@ -625,12 +626,20 @@ function intro(t: Strings, pins: Pins): TutorialSpec<Player, Root> {
       ...upTo(state((root) => passengersAt("X09")(root).length >= 1)),
       focus: [{ ring: passengersAt("X09"), arrow: true }, { arrow: crossing("X10") }],
     }),
-    doIt("r2-carry1", { key: "vroom.move", chit: anyPassenger, target: building("L102") }, state((_root, me) => me.score >= 2), {
-      focus: [{ arrow: (root) => passengersAt("X09")(root)[0] }, { arrow: building("L102") }],
+    // A real choice (the developer: round 1's carry is forced, so the next one should not be): any of the three
+    // waiting passengers, either pub, and a different passenger before the pub. Every choice scores the same.
+    doIt("r2-carry1", { key: "vroom.passenger", chit: waitingOnMyLine }, pickedUp, {
+      focus: [{ ring: waitingOnMyLine, separate: true, arrow: true }],
     }),
-    doIt("r2-carry2", { key: "vroom.move", chit: anyPassenger, target: building("L103") }, state((_root, me) => me.score >= 3), {
+    doIt("r2-carry1-to", [{ key: "vroom.building", chit: freePubs }, { key: "vroom.switch", chit: waitingOnMyLine }], state((_root, me) => me.score >= 2), {
+      focus: [{ ring: freePubs, separate: true, arrow: true }],
+    }),
+    doIt("r2-carry2", { key: "vroom.passenger", chit: waitingOnMyLine }, pickedUp, {
+      focus: [{ ring: waitingOnMyLine, separate: true, arrow: true }],
+    }),
+    doIt("r2-carry2-to", [{ key: "vroom.building", chit: freePubs }, { key: "vroom.switch", chit: waitingOnMyLine }], state((_root, me) => me.score >= 3), {
       ...upTo(r2Start),
-      focus: [{ arrow: (root) => passengersAt("X10")(root)[0] }, { arrow: building("L103") }],
+      focus: [{ ring: freePubs, arrow: true }],
     }),
     confirm("r2-confirm7", upTo(r2Start)),
     othersStep("others-r2-start", r2Start, { ...upTo(r2Start), focus: [{ ring: startBus, arrow: true }] }),

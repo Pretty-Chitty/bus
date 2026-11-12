@@ -267,7 +267,10 @@ const RULES: Record<string, (o: any, ctx: any) => number> = {
     },
     "clock.run": () => 0,
 
-    "vroom.move": (_o, { random }) => 1 + random(),
+    // VR: any waiting passenger to any free building scores the same point
+    "vroom.passenger": (_o, { random }) => 1 + random(),
+    "vroom.building": (_o, { random }) => 1 + random(),
+    "vroom.switch": () => -1, // picking up a different passenger instead: never needed
 };
 
 export const ai = defineAi<Player, Root, Memory>({

@@ -193,6 +193,23 @@ export function vroomOptions(root: Root, p: Player, busesLeft: number): VroomOpt
   return { passengers, buildings, max: Math.min(busesLeft, passengers.length, buildings.length) };
 }
 
+/** VR5: the crossings a bus drives through along the player's line, from `from` to `to` (both included), by the
+ *  shortest stretch of the line. The line may pass a crossing more than once (LE15). */
+export function busPath(p: Player, from: string, to: string): string[] {
+  const r = p.route;
+  let best: string[] = [from];
+  let bestLength = Infinity;
+  r.forEach((a, i) => {
+    if (a !== from) return;
+    r.forEach((b, j) => {
+      if (b !== to || Math.abs(i - j) >= bestLength) return;
+      bestLength = Math.abs(i - j);
+      best = i <= j ? r.slice(i, j + 1) : r.slice(j, i + 1).reverse();
+    });
+  });
+  return best;
+}
+
 // ------------------------------------------------------------------ actions (CA)
 /** CA6, CA10: the space a player would take in each action now (the lowest free letter); none if full. */
 export function nextFreeSpaces(root: Root): ActionSpace[] {
