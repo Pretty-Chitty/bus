@@ -47,12 +47,7 @@ export default class Bus implements Game<Player, Root> {
     licenseInformation:
       "Bus © Splotter Spellen / Capstone Games. Board art from the Capstone 20th-anniversary edition.",
     implementationNotes:
-      "All rules of the 2019 Capstone rulebook are implemented (3–5 players), with the 2024 Complete Edition rewrite's clarifications. " +
-      "Scores are shown in the player bar; the board's 0–20 track is painted out. " +
-      "Line markers and buildings are unlimited, as in the original rules (the Capstone books do not say what happens when they run out). " +
-      "Exception 2 (running alongside another line where your ends meet) applies only while every line in that street ends at that crossing. " +
-      "A passenger counts as waiting when no free building of the clock's kind is left at their crossing; passengers re-seat at the Clock step every round. " +
-      "Ties go to the player with more time stones, then to whoever reached the score first.",
+      "Fully implemented, for 3 to 5 players.",
     publisher: "Splotter Spellen, Capstone Games",
     designer: "Jeroen Doumen, Joris Wiersinga",
     artist: "Daan van Paridon, Thijs van Paridon",

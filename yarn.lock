@@ -1678,9 +1678,10 @@
     webpack-cli "^5.1.4"
     webpack-dev-server "^4.15.1"
 
-"@pretty-chitty/core@file:./vendor/pretty-chitty-core-dragfix.tgz":
-  version "2.1.0"
-  resolved "file:./vendor/pretty-chitty-core-dragfix.tgz#531205c72b494ce6abcf16d26ee829c2300dfd9d"
+"@pretty-chitty/core@^2.3.1":
+  version "2.3.1"
+  resolved "https://registry.yarnpkg.com/@pretty-chitty/core/-/core-2.3.1.tgz#980f2df004a43205290f7c373d0492e0bbe03d52"
+  integrity sha512-C1mpIgFgR/UBuN92q21vtl4fV+JshPn23t5jSvRiDHfxt5m5TV9k6TEF7GgFE6tVxszUgvvbmntCOzKqIOrjig==
   dependencies:
     "@egjs/hammerjs" "^2.0.17"
     "@emotion/react" "^11.11.0"

@@ -6,4 +6,5 @@ docs
 build
 yarn 
 .DS_Store
-.ftpsettings.json
+.ftpsettings.json__pycache__
+.ftpSettings.json

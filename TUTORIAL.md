@@ -6,10 +6,14 @@ company. The lesson plays the opening (two buildings and two streets each) and t
 
 - **Round 1:** you take Vrrooomm! A and Buses, then pass. Your bus raises the most-buses count before
   Passengers and Buildings. Nobody takes the Clock, so it moves on to the office. The passenger on your
-  roundabout wants to get away, and your bus carries them to your office: your first point.
+  roundabout wants to get away, and your bus carries them to your office: your first point. With one passenger
+  and one office, the engine answers both picks itself, so the player watches this carry.
 - **Round 2:** you plan for the pub. You take Buildings A (two pubs on your roundabout), Passengers A (two to your
-  station) and Vrrooomm!. Bram takes the Clock and lets time run. Your office's passenger and one of the new
-  arrivals ride to your pubs, for two more points. Nobody takes Starting Player, so the start-bus passes to you.
+  station) and Vrrooomm!. Bram takes the Clock and lets time run. Three passengers wait on your line and you
+  have two buses: **the player chooses** which two to carry and which pub each goes to (tap a passenger, which
+  lifts, then a pub; tapping another passenger first switches). Every choice scores the same two points, and the
+  rest of the lesson plays the same whichever is made (checked with three other paths forced). Nobody takes
+  Starting Player, so the start-bus passes to you.
 - **The close:** the parallel-line exceptions, loops and their end markers, zones, the three ways the game ends,
   scoring and ties, and the player aid. Then `end: "continue"`: round 3 is yours to play.
 
@@ -17,7 +21,10 @@ Every draw and bot move is pinned (`src/tutorial/pins.json`). The bots are steer
 keep the lesson intact: in round 1 nobody else takes Buses or the Clock or builds at your roundabout; in round 2
 nobody takes your A spaces, Bram takes the Clock and lets it run, and nobody's line reaches your roundabout.
 
-The narration is a draft in the macOS system voice (Samantha, `scripts/tutorial/audio.mjs`); the ElevenLabs voice comes once the developer picks one.
+The narration is Kokoro's bm_daniel on a local Voicebox server (the developer's pick by ear), force-aligned by
+`scripts/tutorial/align.py`. For the voice only, "Vrrooomm" is respelt "Vroom" (`pronounce`), space letters are
+spoken "eigh", "bee", "eff", quote marks are dropped, and silence is spliced in at colons and sentence ends
+(`narrator.pauses`). Action-space names are quoted in the text (“Buses”) to tell them from the pieces.
 
 ## Coverage
 

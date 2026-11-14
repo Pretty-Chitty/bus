@@ -144,7 +144,7 @@ Walked `RULES.md` top to bottom against the code (2026-11-04). ✅ implemented �
   stand-in marker.
 - Soak: `scripts/ai-soak.mjs`, 3–5 players, every game finishes; no stalls, rule errors or untagged picks.
 
-## Deliberate choices (in `implementationNotes`)
+## Deliberate choices
 
 - Scores are shown as sparks; the printed track is painted out (Q1).
 - Line markers and buildings are unlimited (Q7, Q8: the original rules say so; Capstone's books are silent).

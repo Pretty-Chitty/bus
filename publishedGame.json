@@ -4,13 +4,13 @@
   "minPlayers": 3,
   "maxPlayers": 5,
   "configurationOptions": [],
-  "version": "1.0.2",
-  "coreVersion": "2.1.0",
+  "version": "1.0.4",
+  "coreVersion": "2.3.1",
   "backgroundColor": "#0B1D29",
   "foregroundColor": "#FFFFFFE6",
   "name": "Bus",
   "licenseInformation": "Bus © Splotter Spellen / Capstone Games. Board art from the Capstone 20th-anniversary edition.",
-  "implementationNotes": "All rules of the 2019 Capstone rulebook are implemented (3–5 players), with the 2024 Complete Edition rewrite's clarifications. Scores are shown in the player bar; the board's 0–20 track is painted out. Line markers and buildings are unlimited, as in the original rules (the Capstone books do not say what happens when they run out). Exception 2 (running alongside another line where your ends meet) applies only while every line in that street ends at that crossing. A passenger counts as waiting when no free building of the clock's kind is left at their crossing; passengers re-seat at the Clock step every round. Ties go to the player with more time stones, then to whoever reached the score first.",
+  "implementationNotes": "Fully implemented, for 3 to 5 players.",
   "publisher": "Splotter Spellen, Capstone Games",
   "designer": "Jeroen Doumen, Joris Wiersinga",
   "artist": "Daan van Paridon, Thijs van Paridon",
@@ -20,8 +20,8 @@
   "publisherUrl": "https://www.splotter.nl",
   "repositoryUrl": "https://github.com/Pretty-Chitty/bus",
   "description": "Run a bus line through a fast-growing city. Choose actions with a dwindling supply of markers: extend your route, buy buses, bring in passengers, put up houses, offices and pubs, stop the clock — and drive people where they want to be at this time of day.",
-  "boxArt": "https://pretty-chitty-dev.b-cdn.net/bus/3062883244552ccd0d1c.13f47cd9.jpg",
-  "screenshot": "https://pretty-chitty-dev.b-cdn.net/bus/11a5d79e108c627063e5.a6a13eb3.jpg",
+  "boxArt": "https://pretty-chitty.b-cdn.net/bus/3062883244552ccd0d1c.13f47cd9.jpg",
+  "screenshot": "https://pretty-chitty.b-cdn.net/bus/11a5d79e108c627063e5.a6a13eb3.jpg",
   "demos": [
     {
       "id": "demo",
@@ -38,10 +38,10 @@
       "titles": {
         "en": "How to play Bus"
       },
-      "steps": 89,
+      "steps": 91,
       "requires": []
     }
   ],
-  "webEntry": "https://pretty-chitty-dev.b-cdn.net/bus/game.7bb382faf3e874469e34.js",
-  "nodeEntry": "https://pretty-chitty-dev.b-cdn.net/bus/node.c2c93cccff55c4ef4f1a.js"
+  "webEntry": "https://pretty-chitty.b-cdn.net/bus/game.d612f6eb36cf838590c1.js",
+  "nodeEntry": "https://pretty-chitty.b-cdn.net/bus/node.f6722a5605fb932423fb.js"
 }
